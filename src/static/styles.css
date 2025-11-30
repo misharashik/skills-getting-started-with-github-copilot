@@ -97,6 +97,40 @@ section h3 {
   font-size: 14px;
 }
 
+.participant-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  margin-left: 0;
+}
+
+.participant-item span {
+  flex: 1;
+}
+
+.delete-participant-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+}
+
+.delete-participant-btn:hover {
+  background-color: #c0392b;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
